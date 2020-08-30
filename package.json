@@ -1,0 +1,24 @@
+{
+  "name": "clowse",
+  "version": "1.0.0",
+  "description": "Clowse is a SaaS platform that allows Sales and Marketing Teams to create Custom Workflows for the Discovery and Demo stages of the sales process. Users can create precise and automated Templates for these crucial stages of the sales process, to ensure you uncover your Prospect’s “Pain Points” during the Discovery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaisewhite/Clowse.git"
+  },
+  "author": "Kaise White",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaisewhite/Clowse/issues"
+  },
+  "homepage": "https://github.com/kaisewhite/Clowse#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.3.3"
+  }
+}
