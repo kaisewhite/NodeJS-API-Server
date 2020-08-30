@@ -6,6 +6,6 @@ Assuming you have already installed NodeJS, Express, PG, Cors, and PostgreSQL al
 
 Commands used
 
-# npm init
+## npm init
 
-# npm install express pg cors
+## npm install express pg cors
