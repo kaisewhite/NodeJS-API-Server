@@ -2,9 +2,10 @@
   "name": "clowse",
   "version": "1.0.0",
   "description": "Clowse is a SaaS platform that allows Sales and Marketing Teams to create Custom Workflows for the Discovery and Demo stages of the sales process. Users can create precise and automated Templates for these crucial stages of the sales process, to ensure you uncover your Prospect’s “Pain Points” during the Discovery",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",

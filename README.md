@@ -19,7 +19,9 @@ Assuming you have already installed NodeJS, Express, PG, Cors, and PostgreSQL al
 
 ## Setup
 
-1. In the main project folder create a file called `.env`. This is where all environment variables will be defined locally. You'll need to copy and paste these environment variables into your `.env` file.
+#### Envirnoment Variables
+
+In the main project folder create a file called `.env`. This is where all environment variables will be defined locally. You'll need to copy and paste these environment variables into your `.env` file.
 
 ```
 PORT=5000
@@ -34,4 +36,14 @@ Note: If you do not define a port number it will automatically default to 3001. 
 
 ```
 const portNumber = process.env.PORT || 3001; //Gets the port number from an envrionment variable called PORT
+```
+
+#### Docker
+
+```
+docker build -f ./Dockerfile --build-arg PORT=8080 -t latest .
+```
+
+```
+docker run latest -e PORT=8080 latest
 ```
