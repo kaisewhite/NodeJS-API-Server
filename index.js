@@ -45,8 +45,9 @@ app.listen(portNumber, () => {
 app.get("/", async (req, res) => {
   try {
     var today = new Date().toString();
-    const info = { application: "Clowse-API-Server", version: 1.0, info: "Node.js, Express, and PostgreSQL", date: today };
+    const info = { application: "Express-API-Server", version: 1.0, info: "Node.js, Express, and PostgreSQL", date: today };
     res.json(info);
+    res.statusCode(200);
   } catch (err) {
     console.log(err.message);
   }
