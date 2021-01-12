@@ -13,15 +13,9 @@ Assuming you have already installed NodeJS, Express, PG, Cors, and PostgreSQL al
 | CORS       | [Download](https://www.npmjs.com/package/cors) | `npm install cors`    |
 | PostgreSQL | [Download](https://www.npmjs.com/package/pg)   | `npm install pg`      |
 
-## npm init
-
-## npm install express pg cors
-
-## Setup
-
 #### Envirnoment Variables
 
-In the main project folder create a file called `.env`. This is where all environment variables will be defined locally. You'll need to copy and paste these environment variables into your `.env` file.
+When you pull down this repo, in the main project folder, create a file called `.env`. This is where all environment variables will be defined locally. You'll need to copy and paste these environment variables into your `.env` file.
 
 ```
 PORT=5000
